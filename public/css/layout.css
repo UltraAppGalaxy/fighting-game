@@ -1,0 +1,40 @@
+﻿#site_center {text-align:center;}
+#main {width:750px; margin:26px auto 27px auto; text-align:left;}
+
+#header {height:199px; background:url('../../public/img/header_bgd.jpg') no-repeat left top;}
+#header, #content, #footer { font-size:0.75em;}
+
+.col_1, .col_2, .col_3, .column1, .column2, .column3 { float:left;}
+
+/*======= index.asp =======*/
+#Index #content .col_1 {width:417px;}
+#Index #content .col_2 { width:333px;}
+#Index #content .col_1 .column1 { width:210px;}
+#Index #content .col_1 .column2 { width:171px;}
+
+/*======= visualstyles.asp =======*/
+#VisualStyles #content .col_1 {width:417px;}
+#VisualStyles #content .col_2 { width:333px;}
+
+/*======= gettingstarted.asp =======*/
+#GettingStarted #content .col_1 {width:417px;}
+#GettingStarted #content .col_2 { width:333px;}
+#GettingStarted #content .code {display:block;font: 1em 'Courier New', Courier, Fixed, monospace;font-size : 100%;color: #000;background : #fff;overflow : auto;text-align:left;border : 1px solid #5581C0;padding : 15px 15px 15px 15px;margin:1em 1em 1em 1em;line-height:17px;}
+#GettingStarted #content .green {color:#008000;}
+#GettingStarted #content .blue {color:#0000ff;}
+
+/*======= whatsnew.asp =======*/
+#WhatsNew #content .col_1 {width:417px;}
+#WhatsNew #content .col_2 { width:333px;}
+
+/*======= contact.asp =======*/
+#Contact #content .col_1 {width:417px;}
+#Contact #content .col_2 { width:333px;}
+#Contact #content .col_1 .column1 { width:210px;}
+#Contact #content .col_1 .column2 { width:171px;}
+#Contact #content .norm {color:white;}
+#Contact #content .warn {color:orange;}
+#Contact #content .error {color:orange;}
+/*=========================*/
+
+#footer {height:74px; background:url('../../public/img/footer_bgd1.gif') no-repeat left top;}
